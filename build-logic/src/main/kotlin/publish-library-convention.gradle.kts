@@ -47,6 +47,4 @@ mavenPublishing {
             developerConnection.set("scm:git:ssh://github.com/IlyaPavlovskii/humans-android-ui.git")
         }
     }
-
-//    signAllPublications()
 }
