@@ -28,7 +28,7 @@ subprojects {
     }
 
     group = "net.humans.android.ui"
-    version = "2023.07.06"
+    version = "2023.10.26"
 
     setupJavaTarget(this)
 }

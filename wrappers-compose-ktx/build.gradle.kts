@@ -7,7 +7,7 @@ plugins {
 android {
     namespace = "net.humans.android.ui.wrappers.compose"
     buildFeatures.compose = true
-    composeOptions.kotlinCompilerExtensionVersion = "1.5.1"
+    composeOptions.kotlinCompilerExtensionVersion = "1.5.3"
     packagingOptions.resources.excludes += "/META-INF/{AL2.0,LGPL2.1}"
 }
 
