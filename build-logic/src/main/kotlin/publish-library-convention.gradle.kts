@@ -8,7 +8,6 @@ plugins {
 }
 
 val versionSuffix = when (System.getenv("SNAPSHOT")) {
-    null -> "-TEST"
     "true" -> "-SNAPSHOT"
     else -> ""
 }
@@ -30,7 +29,7 @@ fun readGithubProperties(): Properties {
 publishing {
     repositories {
         maven {
-            url = uri("https://github.com/IlyaPavlovskii/humans-android-ui")
+            url = uri("https://maven.pkg.github.com/IlyaPavlovskii/humans-android-ui")
             val githubProperties: Properties = readGithubProperties()
             credentials {
                 username = githubProperties.getProperty("github_username")
