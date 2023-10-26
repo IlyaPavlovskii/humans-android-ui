@@ -9,6 +9,7 @@ local.properties
 /testResults
 /captures
 .externalNativeBuild
+github.properties
 
 #OSX
 .DS_Store
