@@ -24,7 +24,7 @@ jobs:
           cache: gradle
 
       - name: Release build
-        run: ./gradlew assemble compileKotlinIosArm64 compileKotlinIosX64
+        run: ./gradlew wrappers:assemble wrappers-compose-ktx:assemble
 
       - name: Publish to Github
         env:
