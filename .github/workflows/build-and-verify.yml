@@ -3,9 +3,11 @@ name: Build and Verify library
 on:
   workflow_call:
   push:
-    branches: [ $default-branch ]
+    branches:
+      - main
   pull_request:
-    branches: [ $default-branch ]
+    branches:
+      - main
 
 jobs:
   build_and_verify:
